@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/linear_layout_border"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/user_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B2E21B1B"
+            android:text=""
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#B2000000"
+            android:text="  点赞了你的动态"
+            android:textSize="18dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#142B0505"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/you_dongtai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#B2000000"
+            android:padding="5dp"
+            android:text="哈哈哈"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+</LinearLayout>

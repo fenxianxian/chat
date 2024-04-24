@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/border_bg"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:gravity="bottom">
+                <ImageView
+                    android:id="@+id/user_photo"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:id="@+id/hint"
+                    android:src="@drawable/red_dot"
+                    android:visibility="invisible"
+                    android:layout_alignRight="@id/user_photo"
+                    android:layout_alignTop="@id/user_photo"
+                    android:layout_marginRight="-24dp"
+                    android:layout_marginTop="-24dp"/>
+            </RelativeLayout>
+<!--            android:visibility="gone"-->
+<!--            在上面的代码中，我们使用一个 RelativeLayout 来嵌套两个 ImageView。第一个 ImageView 显示用户的照片，-->
+<!--            第二个 ImageView 显示红点。我们将红点位置设置在用户照片的右上角，使它看起来像是与用户照片一起显示的。-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/user_nikeName"
+                            android:textColor="#B2000000"
+                            android:text=""
+                            android:textSize="18dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/send_time"
+                                android:gravity="right"
+                                android:text="" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="370dp"
+                        android:layout_height="19dp"
+                        android:layout_marginTop="7dp"
+                        android:id="@+id/user_message" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

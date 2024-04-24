@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+   <Button
+       android:id="@+id/build_ground"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@android:color/white"
+       android:text="建群" />
+
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="#3B0E0C0C"
+       android:layout_marginBottom="8dp" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="8dp"
+       android:layout_marginLeft="10dp"
+       android:text="你的群聊"/>
+
+
+   <ListView
+       android:id="@+id/lv_group"
+       android:divider="@android:color/transparent"
+       android:clickable="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+<!--   <LinearLayout-->
+<!--       android:id="@+id/group_window"-->
+<!--       android:layout_width="match_parent"-->
+<!--       android:orientation="horizontal"-->
+<!--       android:padding="10dp"-->
+<!--       android:layout_height="wrap_content">-->
+<!--      <ImageView-->
+<!--          android:id="@+id/group_picture"-->
+<!--          android:layout_width="50dp"-->
+<!--          android:layout_height="50dp"-->
+<!--          android:src="@drawable/xiaoai" />-->
+<!--      <LinearLayout-->
+<!--          android:layout_width="match_parent"-->
+<!--          android:layout_height="match_parent"-->
+<!--          android:orientation="vertical">-->
+<!--         <TextView-->
+<!--             android:layout_width="match_parent"-->
+<!--             android:layout_height="0dp"-->
+<!--             android:layout_weight="1"-->
+<!--             android:layout_marginLeft="20dp"-->
+<!--             android:gravity="center_vertical"-->
+<!--             android:textColor="#D3141313"-->
+<!--             android:textSize="20dp"-->
+<!--             android:text="温馨家庭"/>-->
+<!--         <View-->
+<!--             android:layout_width="match_parent"-->
+<!--             android:layout_height="1dp"-->
+<!--             android:layout_marginLeft="20dp"-->
+<!--             android:background="#3B0E0C0C" />-->
+<!--      </LinearLayout>-->
+<!--   </LinearLayout>-->
+
+
+
+</LinearLayout>

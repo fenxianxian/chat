@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D3008577</color>
+<!--    #008577-->
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="itemTint">#301111</color>
+    <color name="itemTextColor">#121212</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="border_gray">#cccccc</color>
+    <color name="green">#2A8578</color>
+    <color name="gray">#808080</color>
+
+    <!-- 定义底部导航栏中选中的文本颜色 -->
+    <color name="bottom_nav_item_text_color_selected">#2A8578</color>
+    <!-- 定义底部导航栏中未选中的文本颜色 -->
+    <color name="bottom_nav_item_text_color_unselected">#808080</color>
+</resources>

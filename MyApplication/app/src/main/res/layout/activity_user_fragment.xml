@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/setting"
+            android:src="@drawable/setting" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/touxian" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/current_name"
+                android:textSize="24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp">
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TableRow  android:layout_marginTop="5dp">
+                <TextView
+                    android:text="新朋友"
+                    android:id="@+id/new_friend"
+                    android:layout_weight="1"
+                    android:padding="10dp"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+                <TextView
+                    android:text="群聊"
+                    android:id="@+id/group_chat"
+                    android:layout_weight="1"
+                    android:padding="10dp"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"/>
+<!--                <TextView-->
+<!--                    android:text="标签"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="10dp"/>-->
+                <TextView
+                    android:text="发动态"
+                    android:id="@+id/posting_updates"
+                    android:layout_weight="1"
+                    android:padding="10dp"/>
+            </TableRow>
+            <TableRow  android:layout_marginTop="5dp">
+<!--                <TextView-->
+<!--                    android:text="通讯录"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="10dp"/>-->
+<!--                <View-->
+<!--                    android:layout_width="1dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="@android:color/black"/>-->
+<!--                <TextView-->
+<!--                    android:text="我要吐槽"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="10dp"/>-->
+<!--                <View-->
+<!--                    android:layout_width="1dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:background="@android:color/black"/>-->
+                <TextView
+                    android:text="小工具"
+                    android:layout_weight="1"
+                    android:id="@+id/small_tool"
+                    android:padding="10dp"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

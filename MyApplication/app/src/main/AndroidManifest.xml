@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ShareHub"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PullPeople" android:label="拉人进群" ></activity>
+        <activity
+            android:name=".ReceivedLikeActivity"
+            android:label="收到的赞" />
+        <activity
+            android:name=".DeleteUser"
+            android:label="删除对方" />
+        <activity
+            android:name=".SetRemarks"
+            android:label="为好友设置备注" />
+        <activity
+            android:name=".CommonGroup"
+            android:label="我和他/她的共同群聊" />
+        <activity
+            android:name=".Dynamics"
+            android:label="对方动态" />
+        <activity
+            android:name=".UserSpace"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".BuildGround"
+            android:label="选择好友" />
+        <activity
+            android:name=".GroupChat"
+            android:label="群聊" />
+        <activity
+            android:name=".add.ApplyRemark"
+            android:label="申请添加好友" />
+        <activity
+            android:name=".FriendSay"
+            android:label="所有好友动态" />
+        <activity android:name=".edit.EditMessageActivity" />
+        <activity
+            android:name=".PostingUpdates"
+            android:label="发个动态" />
+        <activity
+            android:name=".HasNewFriendActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".PersonalSpaceActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ThreeFragment" />
+        <activity android:name=".AppCover">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".NewFriendActivity"
+            android:label="添加好友" />
+        <activity
+            android:name=".ChatActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".db.MySqliteHelper" />
+        <activity android:name=".FriendFragment" />
+        <activity android:name=".MyPagerAdapter" />
+        <activity
+            android:name=".weather.WeathBroadActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".MessageFragment" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".UserServiceTerms"
+            android:label="用户服务协议"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrivacyAgreement"
+            android:label="隐私协议"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Register"
+            android:label="注册"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ForgetPassword"
+            android:label="忘记密码"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>
